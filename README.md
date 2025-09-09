@@ -1,4 +1,4 @@
-# Hi there, I'm Nasri Ladaa! 👋
+# Hi there, I'm Nizar Aljamal! 👋
 
 Welcome to my GitHub profile! I'm a passionate Senior Full Stack Developer with a keen interest in web development, mobile applcation development, data science, and open-source contributions. Here, you'll find a variety of projects that I've worked on, ranging from small utilities to more complex applications.
 
