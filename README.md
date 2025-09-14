@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>محمد - مطور ومتخصص مساحة جوية</title>
+    <title>نزار - مطور Full Stack</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         /* أنماط عامة */
@@ -27,12 +27,20 @@
             color: var(--light);
             line-height: 1.6;
             overflow-x: hidden;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
         }
         
         /* الشريط العلوي */
         header {
-            background: rgba(44, 62, 80, 0.9);
-            padding: 1.5rem;
+            background: rgba(44, 62, 80, 0.95);
+            padding: 1.5rem 0;
             position: fixed;
             width: 100%;
             top: 0;
@@ -45,8 +53,6 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            max-width: 1200px;
-            margin: 0 auto;
         }
         
         .logo {
@@ -101,9 +107,7 @@
         
         /* الأقسام */
         section {
-            padding: 5rem 2rem;
-            max-width: 1200px;
-            margin: 0 auto;
+            padding: 6rem 0;
         }
         
         .hero {
@@ -183,7 +187,8 @@
         .about {
             background: rgba(255, 255, 255, 0.05);
             border-radius: 20px;
-            margin: 2rem auto;
+            padding: 4rem;
+            margin: 2rem 0;
             backdrop-filter: blur(10px);
             box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
         }
@@ -266,7 +271,7 @@
         
         /* قسم المشاريع */
         .projects {
-            padding: 5rem 2rem;
+            padding: 5rem 0;
         }
         
         .projects-grid {
@@ -320,8 +325,8 @@
         .contact {
             background: rgba(255, 255, 255, 0.05);
             border-radius: 20px;
-            padding: 5rem 2rem;
-            margin: 2rem auto;
+            padding: 5rem 4rem;
+            margin: 2rem 0;
             backdrop-filter: blur(10px);
         }
         
@@ -474,6 +479,11 @@
             .nav-links {
                 display: none;
             }
+            
+            .about,
+            .contact {
+                padding: 2rem;
+            }
         }
     </style>
 </head>
@@ -487,151 +497,153 @@
         <div class="circle"></div>
     </div>
 
-    <!-- شريط التنقل -->
-    <header>
-        <nav>
-            <a href="#" class="logo"><i class="fas fa-code"></i> محمد</a>
-            <ul class="nav-links">
-                <li><a href="#about">عنّي</a></li>
-                <li><a href="#skills">المهارات</a></li>
-                <li><a href="#projects">المشاريع</a></li>
-                <li><a href="#contact">اتصل بي</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="container">
+        <!-- شريط التنقل -->
+        <header>
+            <nav>
+                <a href="#" class="logo"><i class="fas fa-code"></i> نزار</a>
+                <ul class="nav-links">
+                    <li><a href="#about">عنّي</a></li>
+                    <li><a href="#skills">المهارات</a></li>
+                    <li><a href="#projects">المشاريع</a></li>
+                    <li><a href="#contact">اتصل بي</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <!-- قسم البطل -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1>مرحباً، أنا محمد</h1>
-            <p>مطور <span class="typewriter">Full Stack & متخصص مساحة جوية</span></p>
-            <p>خريج جامعة النجاح الوطنية | أسعى لتحقيق التميز في البرمجة والمساحة الجوية</p>
-            <a href="#contact" class="btn">تواصل معي <i class="fas fa-arrow-left"></i></a>
-        </div>
-    </section>
+        <!-- قسم البطل -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>مرحباً، أنا نزار</h1>
+                <p>مطور <span class="typewriter">Full Stack</span></p>
+                <p>أحب تحويل الأفكار إلى واقع ملموس عبر البرمجة والتقنية</p>
+                <a href="#projects" class="btn">استعرض مشاريعي <i class="fas fa-arrow-left"></i></a>
+            </div>
+        </section>
 
-    <!-- قسم عني -->
-    <section id="about" class="about">
-        <h2 class="section-title">عنّي</h2>
-        <div class="about-content">
-            <div class="about-text fade-in">
-                <h3>من أنا؟</h3>
-                <p>أنا محمد، خريج جامعة النجاح الوطنية بتخصص المساحة والمساحة الجوية. لدي شغف كبير بتطوير الويب والتقنيات الحديثة، وأعمل حالياً على تطوير مهاراتي في مجال Full Stack Development.</p>
-                <p>أجمع بين معرفتي التقنية في البرمجة وتخصصي في المساحة الجوية لإنشاء حلول مبتكرة تجمع بين العالمين.</p>
-                <p>طموحي هو المساهمة في تطوير تطبيقات تستخدم تقنيات المساحة الجوية والاستشعار عن بعد لخدمة المجتمع وتطويره.</p>
-            </div>
-            <div class="about-skills fade-in">
-                <h3>مهاراتي</h3>
-                <div class="skills-container">
-                    <div class="skill">
-                        <i class="fab fa-html5"></i>
-                        <h4>HTML5</h4>
-                    </div>
-                    <div class="skill">
-                        <i class="fab fa-css3-alt"></i>
-                        <h4>CSS3</h4>
-                    </div>
-                    <div class="skill">
-                        <i class="fab fa-js"></i>
-                        <h4>JavaScript</h4>
-                    </div>
-                    <div class="skill">
-                        <i class="fab fa-react"></i>
-                        <h4>React</h4>
-                    </div>
-                    <div class="skill">
-                        <i class="fas fa-database"></i>
-                        <h4>قواعد البيانات</h4>
-                    </div>
-                    <div class="skill">
-                        <i class="fas fa-satellite"></i>
-                        <h4>المساحة الجوية</h4>
+        <!-- قسم عني -->
+        <section id="about" class="about">
+            <h2 class="section-title">عنّي</h2>
+            <div class="about-content">
+                <div class="about-text fade-in">
+                    <h3>من أنا؟</h3>
+                    <p>أنا نزار، مطور Full Stack شغوف ببناء تطبيقات ويب مبتكرة. لدي خبرة في تطوير حلول تقنية متكاملة من الواجهة الأمامية إلى الخلفية.</p>
+                    <p>أستمتع بتحويل الأفكار إلى تطبيقات عملية، وأؤمن بقوة التكنولوجيا في تغيير العالم نحو الأفضل.</p>
+                    <p>هدفي هو المساهمة في مشاريع مبتكرة وتطوير حلول تقنية تلبي احتياجات المستخدمين وتقدم تجارب ممتعة.</p>
+                </div>
+                <div class="about-skills fade-in">
+                    <h3>مهاراتي</h3>
+                    <div class="skills-container">
+                        <div class="skill">
+                            <i class="fab fa-html5"></i>
+                            <h4>HTML5</h4>
+                        </div>
+                        <div class="skill">
+                            <i class="fab fa-css3-alt"></i>
+                            <h4>CSS3</h4>
+                        </div>
+                        <div class="skill">
+                            <i class="fab fa-js"></i>
+                            <h4>JavaScript</h4>
+                        </div>
+                        <div class="skill">
+                            <i class="fab fa-react"></i>
+                            <h4>React</h4>
+                        </div>
+                        <div class="skill">
+                            <i class="fab fa-node-js"></i>
+                            <h4>Node.js</h4>
+                        </div>
+                        <div class="skill">
+                            <i class="fas fa-database"></i>
+                            <h4>قواعد البيانات</h4>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- قسم المشاريع -->
-    <section id="projects" class="projects">
-        <h2 class="section-title">مشاريعي</h2>
-        <div class="projects-grid">
-            <div class="project-card fade-in">
-                <div class="project-img">
-                    <i class="fas fa-map-marked-alt"></i>
+        <!-- قسم المشاريع -->
+        <section id="projects" class="projects">
+            <h2 class="section-title">مشاريعي</h2>
+            <div class="projects-grid">
+                <div class="project-card fade-in">
+                    <div class="project-img">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>متجر إلكتروني</h3>
+                        <p>منصة تسوق إلكتروني كاملة بميزات عديدة وسهولة في الاستخدام</p>
+                        <a href="#" class="btn">عرض المشروع</a>
+                    </div>
                 </div>
-                <div class="project-content">
-                    <h3>نظام الخرائط التفاعلية</h3>
-                    <p>نظام ويب تفاعلي للخرائط يجمع بين تقنيات الويب والمساحة الجوية</p>
-                    <a href="#" class="btn">عرض المشروع</a>
+                <div class="project-card fade-in">
+                    <div class="project-img">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>نظام إدارة المهام</h3>
+                        <p>تطبيق ويب لإدارة المهام الشخصية والفريقية بميزات متقدمة</p>
+                        <a href="#" class="btn">عرض المشروع</a>
+                    </div>
+                </div>
+                <div class="project-card fade-in">
+                    <div class="project-img">
+                        <i class="fas fa-blog"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>منصة تدوين</h3>
+                        <p>منصة لنشر المقالات والتدوينات مع نظام تعليقات متكامل</p>
+                        <a href="#" class="btn">عرض المشروع</a>
+                    </div>
                 </div>
             </div>
-            <div class="project-card fade-in">
-                <div class="project-img">
-                    <i class="fas drone fa-drone"></i>
-                </div>
-                <div class="project-content">
-                    <h3>تحليل بيانات الطائرات بدون طيار</h3>
-                    <p>تطبيق لتحليل ومعالجة البيانات الجوية المستخلصة من الطائرات بدون طيار</p>
-                    <a href="#" class="btn">عرض المشروع</a>
-                </div>
-            </div>
-            <div class="project-card fade-in">
-                <div class="project-img">
-                    <i class="fas fa-globe"></i>
-                </div>
-                <div class="project-content">
-                    <h3>منصة GIS متكاملة</h3>
-                    <p>منصة نظم المعلومات الجغرافية على الويب مع واجهة مستخدم تفاعلية</p>
-                    <a href="#" class="btn">عرض المشروع</a>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- قسم الاتصال -->
-    <section id="contact" class="contact">
-        <h2 class="section-title">اتصل بي</h2>
-        <div class="contact-content">
-            <div class="contact-info">
-                <div class="contact-item">
-                    <i class="fas fa-envelope"></i>
-                    <div>
-                        <h3>البريد الإلكتروني</h3>
-                        <p>mohamed@example.com</p>
+        <!-- قسم الاتصال -->
+        <section id="contact" class="contact">
+            <h2 class="section-title">اتصل بي</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>البريد الإلكتروني</h3>
+                            <p>nizar@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>الهاتف</h3>
+                            <p>+970 599 000 000</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>الموقع</h3>
+                            <p>فلسطين - جنين</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
-                <div class="contact-item">
-                    <i class="fas fa-phone"></i>
-                    <div>
-                        <h3>الهاتف</h3>
-                        <p>+970 599 000 000</p>
-                    </div>
-                </div>
-                <div class="contact-item">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <div>
-                        <h3>الموقع</h3>
-                        <p>فلسطين - نابلس</p>
-                    </div>
-                </div>
-                <div class="social-links">
-                    <a href="#"><i class="fab fa-github"></i></a>
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
+                <div class="contact-form fade-in">
+                    <form>
+                        <input type="text" placeholder="اسمك" required>
+                        <input type="email" placeholder="بريدك الإلكتروني" required>
+                        <textarea placeholder="رسالتك" rows="5" required></textarea>
+                        <button type="submit" class="btn">إرسال الرسالة <i class="fas fa-paper-plane"></i></button>
+                    </form>
                 </div>
             </div>
-            <div class="contact-form fade-in">
-                <form>
-                    <input type="text" placeholder="اسمك" required>
-                    <input type="email" placeholder="بريدك الإلكتروني" required>
-                    <textarea placeholder="رسالتك" rows="5" required></textarea>
-                    <button type="submit" class="btn">إرسال الرسالة <i class="fas fa-paper-plane"></i></button>
-                </form>
-            </div>
-        </div>
-    </section>
+        </section>
+    </div>
 
     <script>
         // تأثير التمرير للعناصر
