@@ -1,101 +1,70 @@
-🧠 About Me
-javascript
+Nizar Aljamal - Full Stack Developer
 
-const nasri = {
-  pronouns: "He" | "Him",
-  code: ["JavaScript", "TypeScript", "Python", "Java", "C#"],
-  technologies: {
-    frontEnd: {
-      js: ["React", "Next.js"],
-      css: ["TailwindCSS", "Material-UI", "SASS"]
-    },
-    backEnd: {
-      js: ["Node.js", "Express", "NestJS"],
-      java: ["Spring Boot"],
-      python: ["Django", "FastAPI"],
-      csharp: [".NET", ".NET Core"]
-    },
-    mobile: ["React Native"],
-    databases: ["MongoDB", "SQL Server", "PostgreSQL", "MySQL"],
-    cloud: ["AWS", "Azure", "Docker"],
-    dataScience: ["Pandas", "NumPy", "Scikit-learn", "TensorFlow"]
-  },
-  architecture: ["Microservices", "Serverless", "RESTful APIs", "MVC"],
-  challenge: "I solve LeetCode problems for fun!"
-};
+👋 Hi there! I'm Nizar Aljamal, a 24-year-old passionate Full Stack Developer from Palestine. I enjoy creating innovative web solutions and continuously expanding my technical skills.
+🚀 About Me
 
-🚀 Highlighted Projects
-Project	Description	Tech Stack
-🎓 Master's Thesis: ML & DL Experiments	Advanced research applying Machine & Deep Learning models to solve real-world problems, yielding actionable insights.	Python TensorFlow Scikit-learn Pandas NumPy
-⚙️ Dataset Classification App	A powerful .NET application for manually classifying user reviews against key NFRs. Served as the foundational data pipeline for thesis model training.	C# .NET SQL Server WinForms Entity Framework
-🛠️ Tech Stack & Proficiency
-Frontend & Mobile
+    🌱 I'm currently learning and improving my skills in full stack development
 
-https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB
-https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white
-https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black
-https://img.shields.io/badge/React_Native-20232A?style=flat&logo=react&logoColor=61DAFB
-Backend
+    👯 I'm looking to collaborate on open source projects
 
-https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white
-https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=springboot&logoColor=white
-https://img.shields.io/badge/.NET-512BD4?style=flat&logo=dotnet&logoColor=white
-https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white
-https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white
-Databases & Cloud
+    💬 Ask me about web development, problem solving, or cooking!
 
-https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white
-https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?style=flat&logo=microsoft-sql-server&logoColor=white
-https://img.shields.io/badge/AWS-FF9900?style=flat&logo=amazonaws&logoColor=white
-https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white
-📈 GitHub Analytics
-<div align="center">
+    📫 How to reach me: nizar.aljamal@example.com
 
-https://github-readme-stats.vercel.app/api?username=NasriLadaa&show_icons=true&count_private=true&hide_border=true&theme=radical
-https://github-readme-stats.vercel.app/api/top-langs/?username=NasriLadaa&hide=html,css&hide_border=true&layout=compact&theme=radical&langs_count=8
-</div>
-🌱 Current Learning Odyssey
+🛠️ Technologies & Skills
+Frontend Development
 
-    Advanced Cloud Architecture on AWS (Solutions Architect Path)
+    HTML5 - Semantic markup, accessibility, modern APIs
 
-    Deep Dive into MLOps - Taking ML models from prototype to production
+    CSS3 - Flexbox, Grid, animations, responsive design
 
-    Exploring System Design principles for highly scalable applications
+    JavaScript - ES6+, DOM manipulation, async programming
 
-👯 Collaboration Synergy
+Backend Development
 
-I am actively seeking to collaborate on:
+    SQL - Database design, queries, optimization
 
-    Open-Source Projects in the Web Dev, AI, or Data Science space.
+    Learning Node.js and backend frameworks
 
-    Startups with ambitious ideas and a need for robust technical foundation.
+Tools & Practices
 
-    Research Projects that bridge the gap between academic theory and practical application.
+    Git & GitHub
 
-    "Alone we can do so little; together we can do so much." - Let's build something amazing.
+    Responsive Web Design
 
-📫 How to Reach Me
+    Problem Solving
 
-    💼 Professional Network: LinkedIn
+🍳 Hobbies & Interests
 
-    📧 Email for Proposals: nasreladaa@gmail.com
+When I'm not coding, you can find me:
 
-    🧠 Technical Challenges: LeetCode
+    👨‍🍳 Cooking delicious meals (I love experimenting with new recipes!)
 
-⚡ Fun Facts / Life Beyond the Code
+    🧩 Solving complex problems and puzzles
 
-    🧩 Puzzle Solver: I maintain a repository of my LeetCode Solutions – it's my digital gym for the mind.
+    📚 Reading about new technologies and programming concepts
 
-    🌍 Global Explorer: I love traveling and immersing myself in new cultures.
+    🎮 Playing strategy games that challenge my thinking
 
-    ⚽ Football Fanatic: Both a player and a devoted spectator.
+📈 GitHub Stats
 
-    📚 Avid Reader: My focus is on leadership, philosophy, and personal development.
+https://github-readme-stats.vercel.app/api?username=nizaraljamal&show_icons=true&theme=radical
 
-    🎧 Music Aficionado: A well-curated playlist is my ultimate productivity hack.
+https://github-readme-stats.vercel.app/api/top-langs/?username=nizaraljamal&layout=compact&theme=radical
+🔗 Connect with Me
 
-<div align="center">
-Thanks for stopping by! Your journey through my code ends here, but perhaps ours is just beginning.
+    LinkedIn
 
-https://komarev.com/ghpvc/?username=NasriLadaa&color=blueviolet&style=flat
-</div>
+    Portfolio (Coming soon!)
+
+    GitHub
+
+🌟 Featured Projects
+[Project 1] - E-Commerce Website
+
+A fully responsive e-commerce platform built with HTML, CSS, and JavaScript.
+[Project 2] - Task Management App
+
+A productivity application for managing daily tasks and projects.
+
+More projects coming soon!
