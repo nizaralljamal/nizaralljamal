@@ -1,6 +1,7 @@
 Nizar Aljamal - Full Stack Developer
 
-👋 Hi there! I'm Nizar Aljamal, a 24-year-old passionate Full Stack Developer from Palestine. I enjoy creating innovative web solutions and continuously expanding my technical skills.
+👋 Hi there! I'm Nizar Aljamal, a 24-year-old passionate Full Stack Developer from Palestine. Passionate Junior frontend developer with 1+ year experience in HTML, CSS, Javascript, Bootstrap with strong mindset and ownership, fast learner,  collaboration and communication skills, eager to learn and adapting new technologies.
+
 🚀 About Me
 
     🌱 I'm currently learning and improving my skills in full stack development
